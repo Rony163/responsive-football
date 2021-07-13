@@ -36,6 +36,11 @@ main{
     color: white;
     background-color: #E02C6D;
     padding: 10px 25px;
+    transition:1.5s;
+}
+.button:hover{
+    background-color: #3e8e41;
+    color: white;
 }
 .fa-arrow-right{
     margin-left: 10px;
@@ -43,6 +48,10 @@ main{
 .football-image{
     margin-top: 153px;
     margin-left: 102px;
+    transition: 2s;
+}
+.football-image:hover{
+    transform: rotate(30deg);
 }
 .football-image img{
     width: 556px;
@@ -69,4 +78,28 @@ main{
 .player-info p{
     font-size: 16px;
     color: #6C6C6C;
+}
+/* Footer Styles */
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.footer-img img{
+    width: 485px;
+    height: 110px;
+}
+.social-icon{
+    display: block;
+    margin-left: 30%;
+}
+.social-icon i{
+    font-size: 30px;
+}
+.social-icon a{
+    display: inline-block;
+    margin: 8px;
+}
+.copyright{
+    margin-left: 29%;
 }
