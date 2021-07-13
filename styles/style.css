@@ -103,3 +103,49 @@ footer{
 .copyright{
     margin-left: 29%;
 }
+/* Media quaries */
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px){
+    /* Header part */
+    header{
+        height: 100%;
+        width: 100%;
+    }
+    .copa-america{
+        flex-direction: column;
+    }
+    .copa-info{
+        margin-left: 20px;
+    }
+    .copa-title{
+        font-size: 36px;
+    }
+    .football-image{
+        margin-left: 20px;
+    }
+    .football-image img{
+        width: 329px;
+        height: 259.17px;
+    }
+    /* Main part */
+    .container{
+        width: 100%;
+    }
+    .top-players{
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* Footer Part */
+    .social-icon i{
+        font-size: 20px;
+    }
+    .footer-img img{
+        height: 96px;
+        width: 275px;
+        margin-left: 1px;
+    }
+    .copyright{
+        margin-left: 25px;
+    }
+}
