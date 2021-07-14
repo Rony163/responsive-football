@@ -5,11 +5,6 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-header{
-    background-color: #2D25A0;
-    width: 1440px;
-    height: 677px;
-}
 main{
     display: flex;
     flex-direction: column;
@@ -21,6 +16,11 @@ main{
 }
 
 /* Copa America Header */
+header{
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+}
 .copa-america{
     display: flex;
 }
@@ -143,7 +143,9 @@ footer{
 .copyright{
     margin-left: 29%;
 }
-/* Media quaries */
+/*------------------
+ Media quaries
+ ------------------- */
 
 /* Mobile Devices */
 
@@ -195,4 +197,34 @@ footer{
     .copyright{
         margin-left: 25px;
     }
+}
+/* Tablet Devices */
+@media only screen and (min-width: 688px) and (max-width: 992px){
+   /* Header part */
+.copa-info{
+    margin-left: 56px;
+    margin-top: 200px;
+}
+.copa-title{
+    font-size: 34px;
+}
+.football-image{
+    margin-left: 52px;
+}
+.football-image img{
+    width: 456px;
+    height: 338px;
+}
+/* Main part */
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.container{
+    width: 100%;
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
 }
